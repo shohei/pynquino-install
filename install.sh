@@ -15,7 +15,7 @@ cp arduino_zsprinter.py python/constants.py ..
 cd arduino_zsprinter/Debug
 make mrproper && make
 cp arduino_zsprinter.bin ../../../
-cp ~/pynq/lib/arduino/zsprinter-pynquino/pynq_lib_init.py ~/pynq/lib/__init__.py
-cp ~/pynq/lib/arduino/zsprinter-pynquino/pynq_lib_arduino_init.py ~/pynq/lib/arduino/__init__.py
+cp ~/pynq/lib/arduino/zsprinter-pynquino/python/pynq_lib_init.py ~/pynq/lib/__init__.py
+cp ~/pynq/lib/arduino/zsprinter-pynquino/python/pynq_lib_arduino_init.py ~/pynq/lib/arduino/__init__.py
 cp ~/pynq/lib/arduino/zsprinter-pynquino/overlay/pynquino.* ~/pynq/overlays/base/
 sudo reboot
