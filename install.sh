@@ -9,6 +9,8 @@ cd metakernel
 sudo python3.6 setup.py install
 mkdir ~/jupyter_notebooks/pynquino
 cp -r "examples/Pynquino example.ipynb" ~/jupyter_notebooks/pynquino/
+cp -r "examples/initHW.html" ~/jupyter_notebooks/pynquino/
+cp -r "examples/initHW.xml" ~/jupyter_notebooks/pynquino/
 cd ~/pynq/lib/arduino
 git clone https://github.com/shohei/zsprinter-pynquino.git
 cd zsprinter-pynquino
