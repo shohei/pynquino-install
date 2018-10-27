@@ -7,7 +7,7 @@ cd ~
 git clone https://github.com/shohei/metakernel.git 
 cd metakernel
 sudo python3.6 setup.py install
-cp -r examples ~/jupyter_notebooks/metakernel_examples
+cp -r "examples/Pynquino example.ipynb" ~/jupyter_notebooks/pynquino
 cd ~/pynq/lib/arduino
 git clone https://github.com/shohei/zsprinter-pynquino.git
 cd zsprinter-pynquino
